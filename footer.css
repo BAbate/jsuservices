@@ -1,0 +1,93 @@
+/* CSS for the footer */
+.footer {
+ position: relative;
+ 
+  border-style: solid;
+ border-color: yellow;
+ 
+ 
+ 
+ bottom: 0;
+ height:10%;
+ width: 100%;
+}
+
+.footer .footer-submenu {
+	/* 
+  border-style: solid;
+ border-color: green;
+ */
+	position:relative;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	height:100%;
+    
+}
+
+
+.footer .footer-submenu > div  {
+	padding:60px;
+	/* 
+  border-style: solid;
+ border-color: orange;
+ */
+}
+
+
+.footer .footer-submenu .catagories {
+	/* 
+  border-style: solid;
+ border-color: red;
+ */
+	position: relative;
+	height:100%;
+}
+
+.footer .footer-submenu .About {
+	
+	height:100%;
+	position:relative;
+	/* 
+  border-style: solid;
+ border-color: blue;
+ */
+
+}
+
+.footer .footer-submenu .Support {
+	height:100%;
+	position:relative;
+	/* 
+  border-style: solid;
+ border-color: purple;
+ */
+}
+
+
+.footer .footer-submenu a {
+   text-transform: uppercase;
+
+}
+
+.footer .footer-submenu  ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer .footer-submenu ul {
+    list-style: none;
+}
+
+
+.footer .footer-submenu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.footer-submenu-two {
+	text-align:center;
+	color: black;
+
+}
